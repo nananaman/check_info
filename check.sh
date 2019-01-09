@@ -18,4 +18,5 @@ sudo dmidecode -t baseboard >> info.txt
 
 # get memory info
 echo -e '\n####################\n##     memory     ##\n####################' >> info.txt
+free >> info.txt
 sudo dmidecode -t memory >> info.txt
